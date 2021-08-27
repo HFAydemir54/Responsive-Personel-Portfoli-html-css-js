@@ -1,0 +1,94 @@
+.home-content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.home-img {
+    width: calc(100% - 100px);
+}
+
+.home-blob {
+    fill: var(--first-color);
+}
+
+.home-blob-img {
+    width: 175px;
+}
+
+.home-social {
+    width: 10%;
+    position: absolute;
+    top: 25%;
+    left: -15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: f;
+    align-items: center;
+}
+
+.home-social-icon {
+    color: var(--first-color);
+    padding-top: 20px;
+    font-size: 23px;
+}
+
+.home-social-icon:hover {
+    color: var(--first-color-alt);
+}
+
+.home-title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.home-subtitle {
+    margin-bottom: 15px;
+}
+
+.home-description {
+    margin-bottom: 25px;
+}
+
+.home-scrool {
+    display: none;
+}
+
+.home-scrool:hover {
+    margin-top: 7px;
+    transition: .3s;
+}
+
+.home-scrool-button {
+    color: #666;
+    transition: .3s;
+}
+
+.home-scrool-mouse {
+    font-size: 35px;
+    color: #7c43bd;
+    margin-right: 5px;
+}
+
+.home-scrool-name {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.home-scrool-arrow {
+    font-size: 25px;
+    color: #7c43bd;
+}
+
+.btn-hover:hover {
+    background-color: #812fdd;
+}
+
+@media screen and (min-width:968px) {
+    .home-img {
+        width: calc(100% - 300px);
+    }
+}
